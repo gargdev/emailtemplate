@@ -1,0 +1,7 @@
+.categories-section{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    text-align: start;
+    align-items: flex-start;
+}
