@@ -13,6 +13,7 @@ function App() {
       </div>
       <div className="container">
       <div className="header-section">
+        <h5>Marketplace</h5>
         <h1 className="primary-heading mb-2">Email Templates</h1>
         <h1 className="secondary-heading mb-2">
           by the community, for the community.
@@ -22,14 +23,14 @@ function App() {
           journey.
         </p>
       </div>
-        <div className="hero-section mt-5">
+        <div className="hero-section">
           <div className="hero-left">{<Categories />}</div>
           <div className="hero-right">
             <div className="container srch-filter-section">
             <SearchBar />
-            <div className="mb-4">
+            <div className="mb-4 filter">
               <strong>Sort by: </strong>
-              <select className="ml-2">
+              <select className="ml-2 option">
                 <option>Recent</option>
                 <option>Popular</option>
               </select>

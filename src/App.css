@@ -7,6 +7,7 @@
 .header-section{
   margin-top: -27%;
 }
+
 .primary-heading{
   color: var(--green-green-50-main, #24A148);
 font-family: Helvetica Neue;
@@ -36,9 +37,21 @@ letter-spacing: -1.28px;
   line-height: 28px; /* 140% */
 }
 
+.header-section h5{
+  color: var(--neutrals-grey-60, #6F6F6F);
+  font-family: Helvetica Neue;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px; /* 142.857% */
+  letter-spacing: 0.28px;
+  text-transform: uppercase;
+}
+
 .hero-section{
   display: flex;
   gap: 3rem;
+  margin-top: 10%;
 }
 
 .hero-left{
@@ -48,6 +61,52 @@ letter-spacing: -1.28px;
 
 .srch-filter-section{
   display: flex;
-  gap: 30rem;
+  gap: 13rem;
   align-items: center;
+}
+
+.filter{
+  border-radius: 40px;
+  border: 1px solid var(--neutrals-grey-30-borders, #C6C6C6);
+  background: var(--neutrals-white, #FFF);
+  display: flex;
+  padding: 12px 16px;
+  align-items: center;
+  gap: 2px;
+}
+
+.option{
+  border-radius: 40px;
+  border: 1px solid var(--neutrals-grey-30-borders, #C6C6C6);
+  background: var(--neutrals-white, #FFF);
+  display: flex;
+/* padding: 12px 16px; */
+align-items: center;
+gap: 2px;
+}
+
+.option option{
+  border: none;
+  outline: none;
+}
+
+@media only screen and (max-width: 1041px){
+  .hero-section{
+    flex-direction: column;
+  }
+
+  .hero-left{
+    flex-direction: row;
+  }
+}
+
+@media only screen and (max-width: 992px){
+  .srch-filter-section{
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .header-section{
+    margin-top: -80%;
+  }
 }

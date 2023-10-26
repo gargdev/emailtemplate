@@ -20,6 +20,7 @@ import "../styles/categories.css";
 function Categories() {
     return (
         <div className="mb-4 categories-section">
+            <p>Categories</p>
             <label className="mr-3">
                 <input type="checkbox" className="mr-1" />
                 Announcement

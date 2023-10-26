@@ -1,0 +1,40 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex: 1 0 0;
+    align-self: stretch;
+    border-radius: 12px;
+    border: 1px solid var(--neutrals-grey-20, #E0E0E0);
+    background: var(--neutrals-white, #FFF);
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    /* Apply a flip effect on hover */
+    transform: scale(1.09);
+    cursor: pointer;
+}
+
+
+
+.card-title{
+    color: var(--neutrals-grey-100, #161616);
+    font-family: Helvetica Neue;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px; /* 140% */
+    letter-spacing: -0.4px;
+    align-self: stretch;
+}
+
+.card-body p{
+    color: var(--neutrals-grey-100, #161616);
+    font-family: Helvetica Neue;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 133.333% */
+    letter-spacing: -0.18px;
+}
