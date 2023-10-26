@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import "../styles/searchbar.css";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faSearch } from '@fortawesome/free-solid-svg-icons';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { faSearch } from '@fortawesome/free-solid-svg-icons';
 
 function SearchBar({ onSearch }) {
   const [searchQuery, setSearchQuery] = useState('');
