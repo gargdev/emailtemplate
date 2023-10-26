@@ -12,3 +12,13 @@
     font-weight: 400;
     line-height: 24px; /* 150% */
 }
+
+@media only screen and (max-width: 1041px){
+    .srch-bar{
+        display: flex;
+        width: 342px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+}

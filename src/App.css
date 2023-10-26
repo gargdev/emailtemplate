@@ -105,6 +105,16 @@ gap: 2px;
     flex-direction: column;
     gap: 2rem;
   }
+  
+  .filter{
+    margin-top: -8%;
+    display: flex;
+    width: 342px;
+    padding: 12px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+  }
 
   .header-section{
     margin-top: -80%;
