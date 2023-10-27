@@ -5,8 +5,9 @@ import TemplateGrid from "./components/TemplateGrid";
 import { categories as allCategories } from "./components/data";
 import "./App.css";
 
+
 function App() {
-  const [searchQuery, setSearchQuery] = useState('');
+  const [searchQuery, setSearchQuery] = useState("");
 
   const filteredCategories = allCategories.filter((category) =>
     category.name.toLowerCase().includes(searchQuery.toLowerCase())
@@ -26,16 +27,18 @@ function App() {
           <h1 className="secondary-heading mb-2">
             by the community, for the community.
           </h1>
-          <p>100s of free templates to help you craft the perfect marketing journey.</p>
+          <p>
+            100s of free templates to help you craft the perfect marketing
+            journey.
+          </p>
         </div>
         <div className="hero-section">
           <div className="hero-left">
-            
             <Categories />
           </div>
           <div className="hero-right">
             <div className="container srch-filter-section">
-            <SearchBar onSearch={handleSearch} />
+              <SearchBar onSearch={handleSearch} />
               <div className="mb-4 filter">
                 <strong>Sort by: </strong>
                 <select className="ml-2 option">
